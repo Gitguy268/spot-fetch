@@ -20,6 +20,10 @@ Spot gets tired, hungry and thirsty, and he listens better the more he trusts yo
 
 Everything runs on your own device. The game saves Spot's state and your best throw in the browser's `localStorage` and makes no network requests.
 
+<!-- live-links -->
+**Live:** [gitguy268.github.io/spot-fetch](https://gitguy268.github.io/spot-fetch/) · [spot-fetch.vercel.app](https://spot-fetch.vercel.app)
+<!-- /live-links -->
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
