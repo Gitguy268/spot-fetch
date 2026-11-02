@@ -20,6 +20,33 @@ Spot gets tired, hungry and thirsty, and he listens better the more he trusts yo
 
 Everything runs on your own device. The game saves Spot's state and your best throw in the browser's `localStorage` and makes no network requests.
 
+<!-- run-steps:start -->
+## Run it locally, step by step
+
+1. **Install [Node.js](https://nodejs.org) 22** or newer.
+
+2. **Get the code:**
+
+   ```sh
+   git clone https://github.com/Gitguy268/spot-fetch.git
+   cd spot-fetch
+   ```
+
+3. **Install the dependencies:**
+
+   ```sh
+   npm ci
+   ```
+
+4. **Start it:**
+
+   ```sh
+   npm run dev
+   ```
+
+5. **Open <http://localhost:5173/>** in your browser. Press `Ctrl+C` in the terminal to stop.
+<!-- run-steps:end -->
+
 ## Playing
 
 <img src="docs/demo.webp" alt="A throw lands 0.3 m from the flag for 95 points, Spot runs out, picks the ball up and brings it back" width="720">
@@ -56,7 +83,7 @@ The park has a day and night cycle and weather. Three URL switches fix them, whi
 Needs Node 20.19 or newer.
 
 ```sh
-# not on GitHub yet: start from a copy of this folder
+git clone https://github.com/Gitguy268/spot-fetch.git
 cd spot-fetch
 npm ci
 npm run dev
